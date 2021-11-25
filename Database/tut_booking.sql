@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 24, 2021 at 10:04 PM
+-- Generation Time: Nov 25, 2021 at 08:33 PM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -121,37 +121,37 @@ CREATE TABLE `time` (
 --
 
 INSERT INTO `time` (`time_id`, `from_to`, `time`, `numBooked`, `notAllowed`) VALUES
-(45, 'south_north', '08:00', 0, 1),
-(46, 'south_north', '08:30', 0, 1),
-(47, 'south_north', '09:00', 0, 1),
-(48, 'south_north', '09:30', 0, 1),
-(49, 'south_north', '10:00', 0, 1),
-(50, 'south_north', '10:30', 0, 1),
-(51, 'south_north', '11:00', 2, 1),
+(45, 'south_north', '08:00', 0, 0),
+(46, 'south_north', '08:30', 0, 0),
+(47, 'south_north', '09:00', 0, 0),
+(48, 'south_north', '09:30', 0, 0),
+(49, 'south_north', '10:00', 0, 0),
+(50, 'south_north', '10:30', 0, 0),
+(51, 'south_north', '11:00', 2, 0),
 (52, 'north_south', '11:30', 1, 0),
-(53, 'south_north', '12:00', 0, 1),
-(54, 'south_north', '12:30', 56, 1),
-(55, 'south_north', '13:00', 0, 1),
-(56, 'south_arcadia', '07:00', 0, 1),
-(57, 'south_arcadia', '08:00', 0, 1),
-(58, 'south_arcadia', '23:00', 118, 1),
-(59, 'south_arcadia', '10:00', 0, 1),
-(60, 'south_arcadia', '11:00', 0, 1),
-(61, 'south_arcadia', '00:00', 0, 1),
-(62, 'arcadia_south', '13:00', 142, 1),
-(63, 'south_arcadia', '14:00', 261, 1),
+(53, 'south_north', '12:00', 0, 0),
+(54, 'south_north', '12:30', 56, 0),
+(55, 'south_north', '13:00', 0, 0),
+(56, 'south_arcadia', '07:00', 0, 0),
+(57, 'south_arcadia', '08:00', 0, 0),
+(58, 'south_arcadia', '23:00', 118, 0),
+(59, 'south_arcadia', '10:00', 0, 0),
+(60, 'south_arcadia', '11:00', 0, 0),
+(61, 'south_arcadia', '00:00', 0, 0),
+(62, 'arcadia_south', '13:00', 142, 0),
+(63, 'south_arcadia', '14:00', 261, 0),
 (64, 'south_pretoria', '07:00', 0, 0),
 (65, 'south_pretoria', '09:00', 0, 0),
-(66, 'south_pretoria', '23:00', 0, 0),
+(66, 'south_pretoria', '23:00', 1, 0),
 (67, 'south_pretoria', '11:00', 0, 0),
 (68, 'south_pretoria', '12:00', 0, 0),
 (69, 'south_pretoria', '13:00', 0, 0),
 (70, 'south_garankua', '07:00', 0, 0),
 (71, 'south_garankua', '09:00', 0, 0),
 (72, 'south_garankua', '11:00', 0, 0),
-(73, 'south_north', '07:00', 0, 1),
-(74, 'south_north', '07:00', 0, 1),
-(75, 'south_north', '23:00', 1, 1),
+(73, 'south_north', '07:00', 0, 0),
+(74, 'south_north', '07:00', 0, 0),
+(75, 'south_north', '23:00', 1, 0),
 (76, 'pretoria_arcadia', '18:00', 0, 0);
 
 -- --------------------------------------------------------
@@ -223,7 +223,7 @@ ALTER TABLE `notice_board`
 -- AUTO_INCREMENT for table `student_booking`
 --
 ALTER TABLE `student_booking`
-  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `time`
